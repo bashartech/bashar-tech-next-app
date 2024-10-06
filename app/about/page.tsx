@@ -45,7 +45,7 @@ function AboutPage() {
       <div className="main">
     <div className="navbar">
            <div className="logo">
-       <span className="logoImg"><img src="" alt=""/></span>
+       <span className="logoImg"></span>
        <div className="logo2">
        <span> Bashar Tech </span>
        
