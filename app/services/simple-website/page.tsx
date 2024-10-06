@@ -1,8 +1,9 @@
 "use client"
-
-import { useEffect, useState } from "react";
 import Link from "next/link"
-function FaqPage() {
+import { useEffect, useState } from "react";
+// import cssStyle from "./about.module.css"
+
+function AboutPage() {
   const [originalNavColor, setOriginalNavColor] = useState<string>("");
 
   useEffect(() => {
@@ -46,51 +47,35 @@ function FaqPage() {
            <div className="logo">
        <span className="logoImg"></span>
        <div className="logo2">
-        <span> Bashar Tech </span>
+       <span> Bashar Tech </span>
        
    </div>
 </div>
 
    <nav>
    <Link href={"/home"}> <li id="home">Home</li> </Link>
-       <Link href={"/about"}> <li id="about">About</li> </Link>
+       <Link href={"/"}> <li id="about">About</li> </Link>
        <Link href={"/services"}> <li id="services">Services</li> </Link>
        <Link href={"/contact"}> <li id="contact">Contact</li> </Link>
-       <Link href={"/"}> <li id="faq">FAQ</li> </Link>
+       <Link href={"/faq"}> <li id="faq">FAQ</li> </Link>
    </nav>
    <i className="fa-solid fa-moon" id="mode"></i>
    <Link href={"/contact"}><button>Contact us</button></Link>
 </div>
 
-<div className="box">
-<div className="faq-section">
-        <h2>Frequently Asked Questions</h2>
-        <ul>
-            <li>
-                <h4>What is web development?</h4>
-                <p>Web development is the process of building and maintaining websites and web applications.</p>
-            </li>
-            <li>
-                <h4>What technologies do you use?</h4>
-                <p>We use the latest technologies such as HTML5, CSS3, JavaScript, React, Node.js, and more.</p>
-            </li>
-            <li>
-                <h4>Do you provide ongoing support and maintenance?</h4>
-                <p>Yes, we offer ongoing support and maintenance services.</p>
-            </li>
-            <li>
-                <h4>How do I contact your support team?</h4>
-                <p>You can contact us through our contact form or email.</p>
-            </li>
-            <li>
-            <h4>How long does a typical project take?</h4>
-<p>           A: Project timelines vary depending on the complexity of the project.
-</p>            
-</li>
-        </ul>
-    </div>
+ <div className="box">
+    <div className="boxA">
+<h1 className="aboutH1">Simple Website</h1>
+<p>
+We specialize in creating user-friendly and responsive websites that enhance your online presence. Our designs are tailored to ensure seamless navigation and accessibility, allowing visitors to easily find what they need. By prioritizing both aesthetics and functionality, we help you establish a strong digital identity that reflects your brand’s values and engages your audience effectively.
 
+</p>
+<div className="buttons2">
+<Link href={"/contact"}><button className="btn2">Contact us</button></Link>
 </div>
+
+    </div>
+</div> 
 <div className="box4">
 <div className="box2">
    <div className="seperation"></div>
@@ -108,4 +93,4 @@ function FaqPage() {
   )
 }
 
-export default FaqPage
+export default AboutPage

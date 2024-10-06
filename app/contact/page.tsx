@@ -87,13 +87,13 @@ function ContactPage() {
 <div className="box4">
 <div className="box2">
    <div className="seperation"></div>
-   <div>Up to 1,000 Parts</div> 
+   <div>Up to 1,000 Clients</div> 
    <div className="seperation"></div>
-   <div>30+ Materials Available</div> 
+   <div>30+ Services Available</div> 
    <div className="seperation"></div>
-   <div>Available in 57 Countries</div> 
+   <div>Imagination To Creativity</div> 
    <div className="seperation"></div>
-  <div>42 Industrial Printers</div> 
+  <div>Meet Expert Developers</div> 
 </div>
 </div>
    </div>

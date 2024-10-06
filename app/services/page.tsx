@@ -69,7 +69,7 @@ function ServicePage() {
         <div className="card1">
             <div className="title">Simple Website</div>
                 <p>We create user-friendly, responsive websites that enhance your online presence seamlessly.</p>
-                <Link href={"/contact"}><button>
+                <Link href={"/services/simple-website"}><button>
                 <div className="btn">
                 Get Service
                     </div></button></Link> 
@@ -77,7 +77,7 @@ function ServicePage() {
         <div className="card1">
             <div className="title">Dynamic Website</div>
             <p>Our dynamic websites feature real-time updates and interactivity to engage your audience effectively.</p>
-           <Link href={"/contact"}><button>
+           <Link href={"/services/dynamic-website"}><button>
                 <div className="btn">
                 Get Service
                     </div></button></Link> 
@@ -85,7 +85,7 @@ function ServicePage() {
         <div className="card1">
             <div className="title">E-commerce Website</div>
             <p>We build secure, intuitive e-commerce sites to optimize user experience and boost your sales.</p>
-            <Link href={"/contact"}><button>
+            <Link href={"/services/e-commerce-website"}><button>
                 <div className="btn">
                 Get Service
                     </div></button></Link> 
@@ -96,13 +96,13 @@ function ServicePage() {
 <div className="box4">
 <div className="box2">
    <div className="seperation"></div>
-   <div>Up to 1,000 Parts</div> 
+   <div>Up to 1,000 Clients</div> 
    <div className="seperation"></div>
-   <div>30+ Materials Available</div> 
+   <div>30+ Services Available</div> 
    <div className="seperation"></div>
-   <div>Available in 57 Countries</div> 
+   <div>Imagination To Creativity</div> 
    <div className="seperation"></div>
-  <div>42 Industrial Printers</div> 
+  <div>Meet Expert Developers</div> 
 </div>
 </div>
    </div>
