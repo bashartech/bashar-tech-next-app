@@ -67,7 +67,7 @@ function AboutPage() {
     <div className="boxA">
 <h1 className="aboutH1">Simple Website</h1>
 <p>
-We specialize in creating user-friendly and responsive websites that enhance your online presence. Our designs are tailored to ensure seamless navigation and accessibility, allowing visitors to easily find what they need. By prioritizing both aesthetics and functionality, we help you establish a strong digital identity that reflects your brand’s values and engages your audience effectively.
+We specialize in creating user friendly and responsive websites that enhance your online presence. Our designs are tailored to ensure seamless navigation and accessibility allowing visitors to easily find what they need. By prioritizing both aesthetics and functionality we help you establish a strong digital identity that reflects your brands values and engages your audience effectively.
 
 </p>
 <div className="buttons2">

@@ -66,7 +66,7 @@ function AboutPage() {
     <div className="boxA">
 <h1 className="aboutH1">E-Commerce Website</h1>
 <p>
-We develop secure and intuitive e-commerce websites that optimize the user experience and drive sales. Our sites feature streamlined navigation, robust security measures, and mobile responsiveness to ensure a smooth shopping journey for your customers. By focusing on usability and aesthetic appeal, we create online stores that not only attract customers but also convert visits into sales, boosting your bottom line.</p>
+We develop secure and intuitive Ecommerce websites that optimize the user experience and drive sales. Our sites feature streamlined navigation robust security measures and mobile responsiveness to ensure a smooth shopping journey for your customers. By focusing on usability and aesthetic appeal we create online stores that not only attract customers but also convert visits into sales boosting your bottom line.</p>
 <div className="buttons2">
 <Link href={"/contact"}><button className="btn2">Contact us</button></Link>
 </div>

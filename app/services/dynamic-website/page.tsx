@@ -66,7 +66,7 @@ function AboutPage() {
     <div className="boxA">
 <h1 className="aboutH1">Dynamic Website</h1>
 <p>
-Our dynamic websites are designed to provide real-time updates and interactive features that captivate your audience. By incorporating engaging elements such as live content, user-generated data, and personalized experiences, we ensure your site remains fresh and relevant. Our approach not only boosts user interaction but also enhances your site's overall performance, making it a valuable asset for your business.
+Our dynamic websites are designed to provide real time updates and interactive features that captivate your audience. By incorporating engaging elements such as live content user generated data and personalized experiences we ensure your site remains fresh and relevant. Our approach not only boosts user interaction but also enhances your sites overall performance making it a valuable asset for your business.
 </p>
 <div className="buttons2">
 <Link href={"/contact"}><button className="btn2">Contact us</button></Link>
