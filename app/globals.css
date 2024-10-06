@@ -42,7 +42,8 @@ body {
 }
 .logoImg{
   background-image: url(./svg/logo.svg);
-  background-size: 50px 50px; /* Set width and height */
+  background-size: 50px 50px;
+   /* Set width and height */
   background-repeat: no-repeat; /* Prevent repeating of the image */
     background-position: center;  /* Center the image */
     width: 50px;  /* Adjust width of the element */
@@ -117,7 +118,7 @@ nav li:hover{
 }
 
  .logo2 span{
-    color: rgb(251, 223, 180);
+    color: rgb(255, 254, 254);
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
@@ -493,8 +494,9 @@ background-color: #82899d;
  @media  screen and (max-width:460px) {
     .navbar button{
         margin-right: 1px;
+        font-weight: 300;
         padding: 0px;
-        font-size: 8px;
+        font-size: 9.5px;
         border-radius: 16px;
 
     }
@@ -529,15 +531,16 @@ background-color: #82899d;
     .navbar button{
         margin-right: 1px;
         padding: 0px;
-        font-size: 8px;
+        font-size: 9px;
+        font-weight: 400;
         border-radius: 16px;
 
     }
     .navbar nav{
         padding: 3px;
         width: 180px;
-        font-size: 8px;
-        font-weight: 100;
+        font-size: 9px;
+        font-weight: 400;
         gap: 4px;
     }
     .logo2 span{
@@ -556,13 +559,29 @@ background-color: #82899d;
     .box3 {
         margin-left: 20px;
     }
+    .buttons2 .btn3{
+      background-color: #242834;
+      padding: 10px;
+      border-radius: 20px;
+      border: 2px solid #242834;
+      color: white;
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+      font-size: 16px;
+      width: 180px;
+      height: 50px;
+   }
  }
  @media  screen and (max-width:420px) {
     .navbar button{
         margin-right: 1px;
         padding: 0px;
-        font-size: 8px;
-        font-weight: 100;
+        font-size: 9px;
+        font-weight: 400;
         border-radius: 16px;
 
     }
@@ -570,8 +589,8 @@ background-color: #82899d;
         padding: 3px;
         margin-right: 10px;
         width: 190px;
-        font-size: 7.5px;
-        font-weight: 100;
+        font-size: 8.5px;
+        font-weight: 400;
         gap: 3.5px;
     }
     .logo2 span{
@@ -605,18 +624,39 @@ background-color: #82899d;
     .navbar button{
         margin-right: 1px;
         padding: 0px;
-        font-size: 8px;
-        font-weight: 100;
-        border-radius: 16px;
+        font-size: 8.5px;
+        font-weight: 400;
+        border-radius: 6px;
 
     }
+    .logoImg{
+      background-image: url(./svg/logo.svg);
+      background-size: 65px 35px;
+       
+    }
+    .buttons2 .btn3{
+      background-color: #242834;
+      padding: 10px;
+      border-radius: 20px;
+      border: 2px solid #242834;
+      color: white;
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+      font-size: 16px;
+      width: 160px;
+      height: 50px;
+   }
     .navbar nav{
         padding: 3px;
         /* margin-right: 10px; */
         width: 230px;
-        font-size: 8px;
-        font-weight: 100;
-        gap: 3px;
+        font-size: 8.5px;
+        font-weight: 400;
+        gap: 4px;
     }
     .logo2 span{
         font-size: 12px;
