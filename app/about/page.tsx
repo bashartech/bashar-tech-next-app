@@ -66,7 +66,10 @@ function AboutPage() {
  <div className="box">
     <div className="boxA">
 <h1 className="aboutH1">About Us</h1>
-<p className={cssStyle.aboutP}>"With two years of devoted insight in web advancement, I spend significant time in making dynamic and responsive sites that upgrade client commitment. My skill envelops an expansive scope of innovations, including HTML, CSS, JavaScript, and TypeScript, permitting me to fabricate strong and viable web applications. Utilizing Next.js, I convey superior execution applications with upgraded server-side delivering, guaranteeing a consistent client experience. Furthermore, my capability in Tailwind CSS empowers me to create outwardly engaging and present day plans custom fitted to address client issues. I'm focused on remaining refreshed with the most recent industry patterns and best practices to give creative arrangements that surpass client assumptions. Whether you really want an individual portfolio, an internet business stage, or a business site, I'm here to change your thoughts into reality with incredible skill and innovativeness."</p>
+<p className={cssStyle.aboutP}>
+  &quot;With two years of devoted insight in web advancement, I spend significant time in making dynamic and responsive sites that upgrade client commitment. My skill envelops an expansive scope of innovations, including HTML, CSS, JavaScript, and TypeScript, permitting me to fabricate strong and viable web applications. Utilizing Next.js, I convey superior execution applications with upgraded server-side delivering, guaranteeing a consistent client experience. Furthermore, my capability in Tailwind CSS empowers me to create outwardly engaging and present day plans custom fitted to address client issues. I&apos;m focused on remaining refreshed with the most recent industry patterns and best practices to give creative arrangements that surpass client assumptions. Whether you really want an individual portfolio, an internet business stage, or a business site, I&apos;m here to change your thoughts into reality with incredible skill and innovativeness.&quot;
+</p>
+
     </div>
 </div> 
 <div className="box4">
