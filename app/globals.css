@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +25,623 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Jockey+One&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Outfit:wght@100..900&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --primary-img:url(./img/Capture.PNG);
+  
+}
+.dark-mode{
+  --primary-img:url(./img/black-minimalist-wallpaper_889056-13049.avif);
+}
+.logoImg{
+  background-image: url(./svg/logo.svg);
+  background-size: 50px 50px; /* Set width and height */
+  background-repeat: no-repeat; /* Prevent repeating of the image */
+    background-position: center;  /* Center the image */
+    width: 50px;  /* Adjust width of the element */
+    height: 50px; /* Adjust height of the element */
+}
+.main{
+    background-image: var(--primary-img);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: max(1900px,100vw); 
+    
+    
+}
+#mode{
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: right;
+    cursor: pointer;
+}
+ 
+.navbar{
+    width: 100vw;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.navbar nav{
+    
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.navbar span img{
+    width: 50px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+nav li:hover{
+    color:#7c91d6;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+ .logo2 span{
+    color: rgb(251, 223, 180);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .navbar button{
+    background-color: #3A6AFD;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #3A6AFD;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
+
+ }
+ .navbar button:hover{
+    background-color: #fff;
+    color: #3A6AFD;
+
+ }
+ 
+ .boxA{
+  width: 80%;
+
+  /* text-align: center; */
+ }
+ .aboutH1{
+  font-size: 30px;
+ }
+ .aboutP{
+  font-size: 18px;
+ }
+ .box3{
+    margin-left: 50px;
+    width: 700px;
+    overflow-wrap: break-word;
+    
+ }
+ .text{
+    display: grid;
+ }
+ .text :first-child{
+font-size:70px ;
+color: white;
+font-family: "Poppins", sans-serif; 
+} 
+.text :nth-child(2){
+font-family: "Poppins", sans-serif; 
+font-size:24px ;
+color: white;
+ } 
+ .buttons2{
+    display: flex;
+    margin-top: 15px;
+ }
+ .buttons2 .btn2{
+    background-color: #3A6AFD;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #3A6AFD;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 16px;
+    width: 116px;
+    height: 50px;
+
+ }
+ .buttons2 .btn2:hover{
+ background-color: #fff;
+    color: #3A6AFD;
+}
+
+    .buttons2 .btn3:hover{
+        background-color: #fff;
+           color: #3A6AFD;
+        }
+
+ .buttons2 .btn3{
+    background-color: #242834;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #242834;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 16px;
+    width: 216px;
+    height: 50px;
+ }
+ .box4{
+  display: flex;
+  justify-content: center;
+ }
+ .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #242835;
+    color: white;
+    width: 80vw;
+    height: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* background-color: #171717; */
+  width: 90vw;
+  height: 100%;
+}
+
+.card1{
+  width: 300px;
+  background-color: #333339;
+  border: 1.3px solid white;
+  /* height: 200px; */
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+.card1 .title {
+  font-size: 18px;
+  text-align: center;
+  padding: 2px;
+  font-weight: 600;
+}
+.card1 p{
+  padding: 5px;
+}
+.card1 button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn{
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1px;
+  width: 70%;
+  margin-top: 10px;
+}
+.btn:hover{
+background-color: #82899d;
+}
+@media  screen and (max-width:550px) {
+  .container {
+    display: grid;
+    /* gap: 5px; */
+    /* background-color: #171717; */
+    width: 90vw;
+    height: 100%;
+    padding: 10px;
+  }
+  .card1{
+    width: 300px;
+    background-color: #333339;
+    border: 1.3px solid white;    /* height: 200px; */
+    border-radius: 10px;
+    /* padding: 10px; */
+  }
+}
+
+.box{
+  width: 100vw;
+  height: 79vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.faq-section {
+  /* max-width: 800px; */
+  width: 90vw;
+  /* margin: 20px auto; */
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #a2aaaa;
+  border: 1.5px solid #fefdfd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h2 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.faq-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.faq-section li {
+  margin-bottom: 20px;
+}
+
+.faq-section li h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-section li p {
+  color: #666;
+  /* font-size: 13px; */
+}
+.contact-form{
+  width: 80%;
+}
+.contact-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #fffefe;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #abaaaa;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input::placeholder{
+  color: rgb(73, 65, 65);
+}
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submit-btn {
+  background-color: #4762db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #abaaaa;
+}
+ .seperation{
+    width: 5px;
+    background-color: #3A6AFD;
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 20px;
+ }
+ @media  screen and (max-width:950px) {
+    .navbar nav{
+        padding: 6px;
+        width: 400px;
+        font-size: 12px;
+    }
+ }
+ @media  screen and (max-width:850px) {
+    .navbar button{
+        margin-right: 2px;
+    }
+    .text :first-child {
+        font-size: 70px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+ }
+ @media  screen and (max-width:850px) {
+    .navbar button{
+        margin-right: 2px;
+        padding: 2px;
+
+    }
+ }
+ @media  screen and (max-width:650px) {
+    .navbar button{
+        margin-right: 2px;
+        padding: 1px;
+        font-size: 12px;
+
+    }
+    .faq-section li p {
+      color: #666;
+      font-size: 13px;
+    }
+    .navbar nav{
+        padding: 3px;
+        width: 300px;
+        font-size: 13px;
+        gap: 7px;
+    }
+    .box2{
+        font-size: 13px;
+        gap: 17px
+    }
+ }
+ @media  screen and (max-width:560px) {
+    .navbar button{
+        margin-right: 2px;
+        padding: 1px;
+        font-size: 12px;
+
+    }
+    .navbar nav{
+        padding: 3px;
+        width: 270px;
+        font-size: 11px;
+        gap: 6px;
+    }
+ }
+ @media  screen and (max-width:520px) {
+    .navbar button{
+        margin-right: 1px;
+        padding: 0px;
+        font-size: 8px;
+        border-radius: 16px;
+
+    }
+    .navbar nav{
+        padding: 3px;
+        width: 240px;
+        font-size: 10px;
+        gap: 5px;
+    }
+    .text :first-child {
+        font-size: 55px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .text :nth-child(2) {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+    .box2{
+        font-size: 10px;
+        gap: 13px
+    }
+ }
+ @media  screen and (max-width:460px) {
+    .navbar button{
+        margin-right: 1px;
+        padding: 0px;
+        font-size: 8px;
+        border-radius: 16px;
+
+    }
+    .navbar nav{
+        padding: 3px;
+        width: 200px;
+        font-size: 9px;
+        gap: 4px;
+    }
+    .faq-section li p {
+      color: #666;
+      font-size: 11px;
+    }
+    .logo2 span{
+        font-size: 15px;
+    }
+    .text :first-child {
+        font-size: 45px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .text :nth-child(2) {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+    .box3 {
+        margin-left: 35px;
+    }
+ }
+ @media  screen and (max-width:430px) {
+    .navbar button{
+        margin-right: 1px;
+        padding: 0px;
+        font-size: 8px;
+        border-radius: 16px;
+
+    }
+    .navbar nav{
+        padding: 3px;
+        width: 180px;
+        font-size: 8px;
+        font-weight: 100;
+        gap: 4px;
+    }
+    .logo2 span{
+        font-size: 15px;
+    }
+    .text :first-child {
+        font-size: 35px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .text :nth-child(2) {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        color: white;
+    }
+    .box3 {
+        margin-left: 20px;
+    }
+ }
+ @media  screen and (max-width:420px) {
+    .navbar button{
+        margin-right: 1px;
+        padding: 0px;
+        font-size: 8px;
+        font-weight: 100;
+        border-radius: 16px;
+
+    }
+    .navbar nav{
+        padding: 3px;
+        margin-right: 10px;
+        width: 190px;
+        font-size: 7.5px;
+        font-weight: 100;
+        gap: 3.5px;
+    }
+    .logo2 span{
+        font-size: 15px;
+    }
+    .text :first-child {
+        font-size: 28px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .text :nth-child(2) {
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+        color: white;
+    }
+    .box3 {
+        margin-left: 20px;
+    }
+
+    .buttons2 :nth-child(2){
+        font-size: 14px;
+    width: 181px;
+    margin-right: 25px;
+    }
+    .box2 {
+        font-size: 8px;
+        gap: 7px;
+    }
+}
+ @media  screen and (max-width:395px) {
+    .navbar button{
+        margin-right: 1px;
+        padding: 0px;
+        font-size: 8px;
+        font-weight: 100;
+        border-radius: 16px;
+
+    }
+    .navbar nav{
+        padding: 3px;
+        /* margin-right: 10px; */
+        width: 230px;
+        font-size: 8px;
+        font-weight: 100;
+        gap: 3px;
+    }
+    .logo2 span{
+        font-size: 12px;
+    }
+    .text :first-child {
+        font-size: 24px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .text :nth-child(2) {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        color: white;
+    }
+    .box3 {
+        margin-left: 20px;
+    }
+
+    .buttons2 :nth-child(2){
+        font-size: 12px;
+    width: 161px;
+    margin-right: 15px;
+    }
+    .box2 {
+        font-size: 8px;
+        gap: 7px;
+    }
 }
